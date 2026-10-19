@@ -1,0 +1,14 @@
+数据库启动命令：
+D:\PostgreSQL\pg17\start-postgres.bat
+
+后端启动命令：
+cd D:\Projects\kb-rag-agent
+.\.venv\Scripts\Activate.ps1
+cd backend
+python run_dev.py
+
+前端启动命令：
+cd D:\Projects\kb-rag-agent
+.\.venv\Scripts\Activate.ps1
+cd frontend
+python -m streamlit run gui/main.py
